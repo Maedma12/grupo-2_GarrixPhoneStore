@@ -1,0 +1,113 @@
+body{
+margin: 0;
+}
+
+img{
+    width: 250px;
+    margin: 5px;
+}
+
+.GPS{
+    width: 125px;
+    height: 75px;
+}
+
+.searchBar{
+    text-align: center;
+    margin: 5px;
+}
+
+.loginBar{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 25px;
+}
+
+.fas{
+    color: white;
+    margin: 5px;
+}
+
+
+
+header{
+    background-color: black;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.marcas p{
+    margin: 7.5px;
+}
+
+.filtro{
+    font-size: 15px;    
+}
+
+.marcasCelulares{
+    display: flex;
+    flex-direction: row; 
+    .marcas{
+        width: 50%;
+    }  
+    .accesorios{
+        width: 50%;
+    } 
+}
+
+h3{
+    margin: 0;
+}
+
+h4{
+    margin: 0;
+}
+
+.productos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.productos div{
+    display: flex;
+    box-shadow: 0px 0px 10px black;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+/* @media (max-width: 360px) {
+    header{
+        position: fixed;
+        width: 100%;
+        .bar{
+            display: none;
+        }
+    }
+} */
+
+@media (min-width: 361px) {
+
+}
+
+@media (min-width: 769px) {
+
+}
