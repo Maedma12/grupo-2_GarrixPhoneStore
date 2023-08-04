@@ -1,5 +1,11 @@
+html{
+    height: 100%;
+}
 body{
-margin: 0;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100%;
 }
 
             /* Header */
@@ -49,6 +55,11 @@ ul li a{
 }
 
         /* Main */
+
+main{
+    height: auto;
+    margin-bottom: auto;
+}
 
 .marcas p{
     margin: 7.5px;
@@ -106,7 +117,7 @@ h4{
 
 footer{
     border-top: solid 1px gray;
-    margin-top: 50px;
+    /* margin-top: auto; */
     background-color: black;
 }
 
@@ -134,7 +145,7 @@ footer div p{
 
 @media (max-width: 360px) {
     header{
-        /* position: fixed; */
+        position: fixed;
         width: 100%;
         .bar{
             display: none;
@@ -142,6 +153,7 @@ footer div p{
     }
     main{
         width: 100%;
+        margin-top: 125px;
     }
     
     .marcasCelulares{
@@ -186,7 +198,7 @@ footer div p{
     footer{
         display: flex;
         box-sizing: border-box;
-        align-self: end;
+        justify-content: space-between;
         width: 100%;
     }
 }
@@ -208,7 +220,6 @@ footer div p{
     /* MAIN */
     main{
         display: flex;
-        height: 80%;
     }
     .filtro{
         width: 20%;
