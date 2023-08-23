@@ -126,8 +126,11 @@ footer div{
     color: white;
 }
 
-footer div p{
+footer div a{
     margin: 10px;
+    color: white;
+    text-decoration: none;
+    display: flex;
 }
 
 .iconsPage{
